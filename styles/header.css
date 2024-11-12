@@ -5,6 +5,7 @@
     display: flex;
 }
 
+/* Left part header stayles*/
 .header-wrapper > .logo-wrapper {
     padding: 30px;
 }
@@ -38,16 +39,48 @@
 
 .header-wrapper > .nav-wrapper > .spark-item span {
     color: #b7b5b5;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 600;
-    padding: 0 5px 0 30px;
+    padding: 0 8px 0 30px;
 }
 
 .header-wrapper > .nav-wrapper > .spark-item i {
     color: #b7b5b5;
-    font-size: 0.8em;
+    font-size: 0.95em;
 }
 
-.header-wrapper > .items-wrapper {
+/* Right part header stayles*/
+.header-wrapper > .header-items-wrapper {
     flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;  
+    /* только для кнопки креат */
+    padding-right: 15px;
+}
+
+.header-wrapper > .header-items-wrapper > .item {
+    background-color: #36383F;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 3px;
+    margin: 8px;
+    padding: 20px 30px;
+}
+
+.header-wrapper > .header-items-wrapper > .item:nth-child(1) > i {
+    color: #10b954;
+    font-size: 1.2em;
+}
+
+.header-wrapper > .header-items-wrapper > .item:nth-child(2) {
+    font-size: 2.5rem;
+    padding: 0 16px;
+    background-color: black;
+    color: #b7b5b5;
+}
+
+.header-wrapper > .header-items-wrapper > .item a {
+    color: white;
 }
