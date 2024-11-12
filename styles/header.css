@@ -1,0 +1,53 @@
+/* Header styles */
+.header-wrapper {
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+
+.header-wrapper > .logo-wrapper {
+    padding: 30px;
+}
+
+.header-wrapper > .logo-wrapper > img {
+    height: 100%;
+}
+
+.header-wrapper > .nav-wrapper {
+    display: grid;
+    align-content: center;
+    align-items: baseline;
+    grid-template-columns: repeat(5, auto);
+}
+
+.header-wrapper > .nav-wrapper > .nav-head {
+    grid-column: 1 / 6;
+    text-transform: uppercase;
+    color: #f2d073;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+.header-wrapper > .nav-wrapper > .nav-link a {
+    color: white;
+    font-weight: 900;
+    font-size: 1.3em;
+    padding: 0 10px;
+}
+
+.header-wrapper > .nav-wrapper > .spark-item span {
+    color: #b7b5b5;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 0 5px 0 30px;
+}
+
+.header-wrapper > .nav-wrapper > .spark-item i {
+    color: #b7b5b5;
+    font-size: 0.8em;
+}
+
+.header-wrapper > .items-wrapper {
+    flex-grow: 1;
+}
