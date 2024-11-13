@@ -1,0 +1,22 @@
+/* Footer styles */
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #36383F;
+    border: 1px solid;
+}
+
+.footer-wrapper > .footer-link {
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    border: 2px solid #797979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-wrapper > .footer-link a {
+    color: white;
+}
