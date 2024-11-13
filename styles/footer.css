@@ -11,6 +11,7 @@
 .footer-links-wrapper > .footer-link {
     width: 25%;
     height: 70px;
+    text-align: center;
     background-color: #36383F;
     border: 2px solid #797979;
     display: flex;

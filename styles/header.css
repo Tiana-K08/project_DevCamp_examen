@@ -3,26 +3,31 @@
     height: 100px;
     background-color: black;
     display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper > .header-left-wrapper {
+    display: flex;
 }
 
 /* Logo header stayles*/
-.header-wrapper > .logo-wrapper {
+.header-wrapper > .header-left-wrapper > .logo-wrapper {
     padding: 30px;
 }
 
-.header-wrapper > .logo-wrapper > img {
-    height: 100%;
+.header-wrapper > .header-left-wrapper > .logo-wrapper > img {
+    height: 40px;
 }
 
-/* Left part header stayles */
-.header-wrapper > .nav-wrapper {
+/* Nav header stayles */
+.header-wrapper > .header-left-wrapper > .nav-wrapper {
     display: grid;
     align-content: center;
     align-items: baseline;
     grid-template-columns: repeat(5, auto);
 }
 
-.header-wrapper > .nav-wrapper > .nav-head {
+.header-wrapper > .header-left-wrapper > .nav-wrapper > .nav-head {
     grid-column: 1 / 6;
     text-transform: uppercase;
     color: #f2d073;
@@ -31,7 +36,7 @@
     padding: 0 10px;
 }
 
-.header-wrapper > .nav-wrapper > .nav-link a {
+.header-wrapper > .header-left-wrapper > .nav-wrapper > .nav-link a {
     color: white;
     font-weight: 900;
     font-size: 1.3rem;
@@ -40,34 +45,34 @@
     transition: 0.4s;
 }
 
-.header-wrapper > .nav-wrapper > .nav-link a:hover {
+.header-wrapper > .header-left-wrapper > .nav-wrapper > .nav-link a:hover {
     border-bottom: 3px double #f2d073;
 
 }
 
-.header-wrapper > .nav-wrapper > .spark-items {
+.header-wrapper > .header-left-wrapper > .nav-wrapper > .spark-items {
     opacity: 0.75;
     transition: 0.4s;
 }
 
-.header-wrapper > .nav-wrapper > .spark-items:hover {
+.header-wrapper > .header-left-wrapper > .nav-wrapper > .spark-items:hover {
     opacity: 1;
 }
 
-.header-wrapper > .nav-wrapper > .spark-items span {
+.header-wrapper > .header-left-wrapper > .nav-wrapper > .spark-items span {
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
     padding: 0 8px 0 30px;
 }
 
-.header-wrapper > .nav-wrapper > .spark-items i {
+.header-wrapper > .header-left-wrapper > .nav-wrapper > .spark-items i {
     color: white;
     font-size: 0.95rem;
 }
 
 /* Right part header stayles*/
-.header-wrapper > .header-items-wrapper {
+.header-wrapper > .header-right-items-wrapper {
     flex-grow: 1;
     display: flex;
     justify-content: end;
@@ -76,7 +81,7 @@
     padding-right: 15px;
 }
 
-.header-wrapper > .header-items-wrapper > .item {
+.header-wrapper > .header-right-items-wrapper > .item {
     background-color: #36383F;
     font-size: 1.2rem;
     font-weight: 600;
@@ -87,16 +92,16 @@
     transition: 0.4s;
 }
 
-.header-wrapper > .header-items-wrapper > .item:hover {
+.header-wrapper > .header-right-items-wrapper > .item:hover {
     border: 3px double #b1b1b1;
 }
 
-.header-wrapper > .header-items-wrapper > .item:nth-child(1) > i {
+.header-wrapper > .header-right-items-wrapper > .item:nth-child(1) > i {
     color: #4bce79;
     font-size: 1.2em;
 }
 
-.header-wrapper > .header-items-wrapper > .item:nth-child(2) {
+.header-wrapper > .header-right-items-wrapper > .item:nth-child(2) {
     font-size: 2.5rem;
     padding: 0 16px;
     background-color: black;
@@ -105,11 +110,11 @@
     transition: 0.4s;
 }
 
-.header-wrapper > .header-items-wrapper > .item:nth-child(2):hover {
+.header-wrapper > .header-right-items-wrapper > .item:nth-child(2):hover {
     opacity: 1;
     border-color: transparent;
 }
 
-.header-wrapper > .header-items-wrapper > .item a {
+.header-wrapper > .header-right-items-wrapper > .item a {
     color: white;
 }

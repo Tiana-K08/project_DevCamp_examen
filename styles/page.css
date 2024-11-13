@@ -34,11 +34,13 @@
 /* Buttones styles */
 .page-wrapper > .left-column > .btn-wrapper {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .page-wrapper > .left-column > .btn-wrapper > a {
     padding: 15px 25px;
     margin: 30px 20px 0 0;
+    text-align: center;
     color: black;
     font-size: 2.2rem;
     font-weight: 600;
@@ -46,7 +48,7 @@
     background-color: #4bce79;
     border-radius: 3px;
     border: 3px solid transparent;
-    transition: 0.4s;
+    transition: 0.4s; 
 }
 
 .page-wrapper > .left-column > .btn-wrapper > a:hover {

@@ -1,0 +1,25 @@
+/* Laptop 1024 */
+@media (max-width: 1024px) {
+    .header-wrapper {
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .header-wrapper > .header-left-wrapper {
+        justify-content: center;
+    }
+
+    .header-wrapper > .header-right-items-wrapper {
+        justify-content: center;
+    }
+
+    .page-wrapper {
+        padding-top: 0;
+    }
+
+    .page-wrapper > .right-column {
+        padding-top: 60px;
+    }
+}
+
+/* Tablet 768 */
