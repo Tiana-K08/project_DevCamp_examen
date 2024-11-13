@@ -1,1 +1,74 @@
 /* Page styles */
+.page-wrapper {
+    display: grid;
+    grid-template-columns: 57% 43%;
+    background: linear-gradient(to left, #111111, #242424, #414141, #484747, #464545, #353535);
+    padding-top: 40px;
+}
+
+/* Left column styles */
+.page-wrapper > .left-column {
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-wrapper > .left-column > p {
+    color: #d6d6d6;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.page-wrapper > .left-column > p strong {
+    color: white;
+    font-weight: 600;
+}
+
+.page-wrapper > .left-column > p:nth-child(2) {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+/* Buttones styles */
+.page-wrapper > .left-column > .btn-wrapper {
+    display: flex;
+}
+
+.page-wrapper > .left-column > .btn-wrapper > a {
+    padding: 15px 25px;
+    margin: 40px 20px 0 0;
+    color: black;
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #4bce79;
+    border-radius: 3px;
+}
+
+.page-wrapper > .left-column > .btn-wrapper > a:nth-child(2) {
+    color: white;
+    background-color: black;
+}
+
+/* Right column styles */
+.page-wrapper > .right-column h3 {
+    color: white;
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 30px 0 8px 15px;
+}
+
+.page-wrapper > .right-column span {
+    color: #5dd5fc;
+}
+
+
+
+
+
+
+
+.img-wrapper img {
+    width: 100%;
+}
