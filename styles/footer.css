@@ -6,17 +6,21 @@
 .footer-wrapper > .footer-links-wrapper {
     display: flex;
     align-items: center;
-    background-color: #36383F;
 }
 
 .footer-links-wrapper > .footer-link {
     width: 25%;
     height: 70px;
+    background-color: #36383F;
     border: 2px solid #797979;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.4s;
+}
 
+.footer-links-wrapper > .footer-link:hover {
+    background-color: #494b52;
 }
 
 .footer-links-wrapper > .footer-link a {
