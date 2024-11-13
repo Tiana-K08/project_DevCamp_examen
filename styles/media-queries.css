@@ -42,7 +42,7 @@
 }
 
 /* Smart 650 */
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     .header-wrapper {
         height: 250px;
     }
