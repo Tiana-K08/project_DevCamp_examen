@@ -1,15 +1,17 @@
 /* Footer styles */
 .footer-wrapper {
+    background-color: #141414;
+}
+
+.footer-wrapper > .footer-links-wrapper {
     display: flex;
     align-items: center;
     background-color: #36383F;
-    border: 1px solid;
 }
 
-.footer-wrapper > .footer-link {
+.footer-links-wrapper > .footer-link {
     width: 25%;
     height: 70px;
-    text-align: center;
     border: 2px solid #797979;
     display: flex;
     justify-content: center;
@@ -17,6 +19,15 @@
 
 }
 
-.footer-wrapper > .footer-link a {
+.footer-links-wrapper > .footer-link a {
     color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer-links-wrapper > .footer-link span {
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
