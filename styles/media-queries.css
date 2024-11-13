@@ -1,5 +1,5 @@
 /* Laptop 1024 */
-@media (max-width: 1024px) {
+@media (max-width: 1356px) {
     .header-wrapper {
         height: 200px;
         flex-direction: column;
@@ -32,17 +32,30 @@
         height: 30px;
     }
 
+    .page-wrapper {
+        grid-template-columns: 1fr;
+    }
+
     .page-wrapper > .left-column > .btn-wrapper > a {
         font-size: 1.2rem;
+    }
+
+    .page-wrapper > .right-column h3 {
+        text-align: center;
+        font-size: 2rem;
+        padding: 0 0 30px;
     }
 
     .footer-links-wrapper > .footer-link a {
         font-size: 1.1rem;
     }
+    .page-wrapper > .right-column > .img-wrapper {
+        margin-bottom: 100px;
+    }
 }
 
 /* Smart 650 */
-@media (max-width: 650px) {
+@media (max-width: 660px) {
     .header-wrapper {
         height: 250px;
     }
