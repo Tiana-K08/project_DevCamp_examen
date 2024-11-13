@@ -54,8 +54,8 @@
     }
 }
 
-/* Smart 650 */
-@media (max-width: 660px) {
+/* Smart 740 */
+@media (max-width: 740px) {
     .header-wrapper {
         height: 250px;
     }
