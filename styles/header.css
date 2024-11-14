@@ -10,7 +10,7 @@
     display: flex;
 }
 
-/* Logo header stayles*/
+/* Left logo header stayles*/
 .header-wrapper > .header-left-wrapper > .logo-wrapper {
     padding: 30px;
 }
@@ -19,12 +19,13 @@
     height: 40px;
 }
 
-/* Nav header stayles */
+/* Left nav header stayles */
 .header-wrapper > .header-left-wrapper > .nav-wrapper {
     display: grid;
     align-content: center;
     align-items: baseline;
     grid-template-columns: repeat(5, auto);
+    margin-right: 30px;
 }
 
 .header-wrapper > .header-left-wrapper > .nav-wrapper > .nav-head {
@@ -53,6 +54,7 @@
 .header-wrapper > .header-left-wrapper > .nav-wrapper > .spark-items {
     opacity: 0.75;
     transition: 0.4s;
+    padding-right: 10px;
 }
 
 .header-wrapper > .header-left-wrapper > .nav-wrapper > .spark-items:hover {
